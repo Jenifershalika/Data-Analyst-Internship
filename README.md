@@ -15,8 +15,8 @@ Cleaning Steps:
 4. Validated numeric columns (release_year, duration)
 5. Added Data_Quality_Notes documenting changes
 
-README.md
-Data Analyst Internship – Task 2
+# README.md
+# Data Analyst Internship – Task 2
 
 Task: Excel Analysis – Pivot Tables + Summary Insights
 Dataset Used: Amazon Sales Dataset
