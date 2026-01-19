@@ -1,0 +1,5 @@
+superstore.sql
+CREATE DATABASE IF NOT EXISTS superstore_db;
+USE superstore_db;
+
+SELECT COUNT(*) AS total_rows FROM superstore;
