@@ -1,0 +1,4 @@
+insights.txt
+1. Customers place multiple orders, showing repeat purchase behavior.
+2. A small number of products generate the majority of total revenue.
+3. LEFT JOIN analysis helps identify customers with no purchase history.
