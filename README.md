@@ -193,6 +193,231 @@ Identified top 5 customers based on total sales amount.
 - Practiced real-world SQL queries used in data analysis
 
 ---
+# Task 4: SQL Intermediate – Joins (INNER, LEFT) & Business Questions
+
+## Objective
+
+The goal of this task is to practice **SQL JOIN operations** (INNER JOIN and LEFT JOIN) and answer **business-related questions** by combining multiple tables. This task helps in understanding how relational databases work in real-world analytics scenarios.
+
+---
+
+## Tools Used
+
+* SQL Database: **MySQL / PostgreSQL**
+* Alternative Tool: **SQLite with DB Browser**
+* SQL Editor: MySQL Workbench / pgAdmin / DB Browser for SQLite
+
+---
+
+## Dataset Used
+
+* **Chinook Database** (recommended)
+  *(Alternative: Northwind or E-commerce dataset)*
+
+### Tables Involved
+
+* Customers
+* Orders
+* Order Details
+* Products
+* Categories
+
+Primary keys and foreign keys were used to correctly map relationships between tables.
+
+---
+
+## Tasks Performed
+
+### 1. Loaded Dataset into SQL
+
+* Imported all tables into the SQL database
+* Verified table structure and relationships
+* Ensured proper primary key and foreign key mapping
+
+---
+
+### 2. INNER JOIN Implementation
+
+* Joined **Orders** and **Customers** tables
+* Retrieved order details along with customer information
+* Validated results by matching order counts
+
+---
+
+### 3. LEFT JOIN Implementation
+
+* Used LEFT JOIN to identify **customers who never placed any orders**
+* Important for customer engagement and marketing analysis
+
+---
+
+### 4. Revenue Analysis per Product
+
+* Joined **Orders** and **Products**
+* Calculated total revenue per product
+* Identified high-performing products (SKUs)
+
+---
+
+### 5. Category-wise Revenue Distribution
+
+* Joined **Products** with **Categories**
+* Calculated revenue grouped by category
+* Useful for product and sales strategy decisions
+
+---
+
+### 6. Business Filtering Using WHERE Clause
+
+* Applied conditions on joined tables
+* Answered questions such as:
+
+  * Sales in a specific region
+  * Orders between specific date ranges
+
+---
+
+## Key Concepts Practiced
+
+* INNER JOIN
+* LEFT JOIN
+* Foreign key relationships
+* Aggregate functions (SUM, COUNT)
+* GROUP BY and WHERE clauses
+* Business-oriented data analysis using SQL
+
+---
+
+## Final Outcome
+
+* Gained confidence in writing complex SQL JOIN queries
+* Understood how multiple tables interact in real databases
+* Learned to translate business questions into SQL queries
+
+---
+
+## Files Included
+
+* `queries_task4.sql` – SQL queries written for the task
+* `README.md` – Task explanation and workflow
+* Screenshots / outputs (if applicable)
+
+---
+
+## Conclusion
+
+This task strengthened my understanding of **relational databases and SQL joins**, which are essential skills for data analysis and backend data handling.
+
+# Task 5: Python Basics – Reading Data & Simple Cleaning (Pandas)
+
+## Objective
+
+The objective of this task is to practice **basic data cleaning using Python and Pandas**.
+This task focuses on loading a dataset, identifying data issues, cleaning the data, and exporting a cleaned version for further analysis.
+
+---
+
+## Tools Used
+
+* Programming Language: **Python**
+* Environment: **Jupyter Notebook**
+* Libraries:
+
+  * `pandas`
+  * `numpy`
+
+---
+
+## Dataset Used
+
+* **Titanic Dataset**
+  *(Raw dataset containing missing values and inconsistent data)*
+
+---
+
+## Tasks Performed
+
+### 1. Load Dataset
+
+* Imported the dataset into Jupyter Notebook using `pandas.read_csv()`
+* Viewed initial rows using `head()` to understand data structure
+
+---
+
+### 2. Understand Data Structure
+
+* Used `info()` to check column names, data types, and null values
+* Identified columns requiring cleaning
+
+---
+
+### 3. Handle Missing Values
+
+* Numeric columns filled using **mean**
+* Categorical columns filled using **mode**
+* Dropped columns with excessive missing or irrelevant data
+
+---
+
+### 4. Remove Duplicate Records
+
+* Checked for duplicate rows using `duplicated()`
+* Removed duplicates using `drop_duplicates()`
+
+---
+
+### 5. Data Type Conversion
+
+* Converted data types where required using `astype()`
+* Ensured correct formats for analysis
+
+---
+
+### 6. Feature Engineering
+
+* Created new derived columns (example: age group)
+* Demonstrated basic data transformation logic
+
+---
+
+### 7. Export Cleaned Dataset
+
+* Saved the cleaned dataset as `cleaned_data.csv` using `to_csv()`
+
+---
+
+## Files Included
+
+* `Task5_Cleaning.ipynb` – Jupyter Notebook with full cleaning process
+* `cleaned_data.csv` – Final cleaned dataset
+* `README.md` – Task explanation and workflow
+
+---
+
+## Key Concepts Practiced
+
+* Reading CSV files using Pandas
+* Handling missing values
+* Data cleaning techniques
+* Removing duplicates
+* Data type conversion
+* Exporting cleaned data
+* Python replacing manual Excel cleaning
+
+---
+
+## Final Outcome
+
+* Gained hands-on experience with **Pandas data cleaning**
+* Learned how Python simplifies data preprocessing
+* Improved confidence in handling real-world datasets
+
+---
+
+## Conclusion
+
+This task demonstrates how Python and Pandas can efficiently clean and preprocess datasets, making data ready for analysis and modeling.
+
 
 ## Author
 Name: Jenifer Shalika S
