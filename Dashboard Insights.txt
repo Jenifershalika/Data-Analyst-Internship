@@ -1,0 +1,10 @@
+📊 Dashboard Insights
+
+1️⃣ Technology category generates the highest total sales
+Across regions, Technology consistently shows the highest sales compared to Furniture and Office Supplies, indicating strong demand for tech products.
+
+2️⃣ Office Supplies and Furniture have similar sales performance
+The total sales for Office Supplies and Furniture are close to each other, suggesting balanced customer spending between these two categories.
+
+3️⃣ Sales distribution changes by region
+When different regions are selected using the Region slicer, total sales vary noticeably, showing that regional markets have a significant impact on overall sales performance.
