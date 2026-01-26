@@ -419,7 +419,7 @@ This task focuses on loading a dataset, identifying data issues, cleaning the da
 This task demonstrates how Python and Pandas can efficiently clean and preprocess datasets, making data ready for analysis and modeling.
 .
 
-📊 Task 6: Retail Sales Data Analysis & Visualization
+## Task 6: Retail Sales Data Analysis & Visualization
 📌 Objective
 
 The objective of this task is to analyze a retail sales dataset and create meaningful visualizations to understand customer behavior, product performance, and sales trends using Python and Jupyter Notebook.
