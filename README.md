@@ -417,8 +417,174 @@ This task focuses on loading a dataset, identifying data issues, cleaning the da
 ## Conclusion
 
 This task demonstrates how Python and Pandas can efficiently clean and preprocess datasets, making data ready for analysis and modeling.
+.
+
+📊 Task 6: Retail Sales Data Analysis & Visualization
+📌 Objective
+
+The objective of this task is to analyze a retail sales dataset and create meaningful visualizations to understand customer behavior, product performance, and sales trends using Python and Jupyter Notebook.
+
+🗂️ Dataset Description
+
+The dataset contains retail transaction details with the following columns:
+
+Transaction ID
+
+Date
+
+Customer ID
+
+Gender
+
+Age
+
+Product Category
+
+Quantity
+
+Price per Unit
+
+Total Amount
+
+The dataset was cleaned and loaded into Jupyter Notebook using pandas.
+
+🛠️ Tools & Technologies Used
+
+Python
+
+Jupyter Notebook
+
+Pandas
+
+Matplotlib
+
+📈 Visualizations Created
+
+The following charts were created in the notebook:
+
+Total sales by Product Category
+
+Number of purchases by Gender
+
+Customer distribution by Age group
+
+These charts help in identifying trends and patterns in the retail sales data.
+
+🔍 Key Insights
+
+Clothing is the highest revenue-generating product category, contributing the most to total sales.
+
+Male customers make more purchases compared to female customers in this dataset.
+
+Customers aged 25–40 years are the most active buyers, making them the primary target group.
+
+📁 Files Included
+
+task6.ipynb – Jupyter Notebook containing code, analysis, and charts
+
+task6.html – Exported HTML file with visible charts and outputs
+
+retail_sales_dataset.csv – Dataset used for analysis
+
+✅ Final Outcome
+
+Successfully performed data analysis and visualization
+
+Gained hands-on experience with real-world retail data
+
+Extracted actionable insights from sales data
+
+.
+
+📊 Sales Dashboard – Power BI
+📌 Project Overview
+
+This project is a Sales Analysis Dashboard created using Power BI Desktop.
+The dashboard provides insights into sales performance, profit trends, and regional contribution to help understand business growth and decision-making.
+
+🗂 Dataset
+
+Dataset Name: Global Superstore
+
+Format: Excel / CSV
+
+Description:
+The dataset contains information about orders, sales, profit, product categories, regions, and time periods.
+.
+
+🛠 Tools & Technologies
+
+Power BI Desktop
+
+Microsoft Excel (for basic data check)
+
+DAX (for calculated measures)
+
+📐 Measures Created
+
+Total Sales
+
+Total Sales = SUM(Sheet1[Sales])
 
 
+Total Profit
+
+Total Profit = SUM(Sheet1[Profit])
+
+
+Profit Margin
+
+Profit Margin = DIVIDE([Total Profit], [Total Sales])
+
+📊 Dashboard Visuals
+Sales by Category (Column Chart)
+
+Sales by Region (Pie / Bar Chart)
+
+Profit Trend Over Time (Line Chart)
+
+KPI Cards:
+
+Total Sales
+
+Total Profit
+
+Profit Margin
+
+Slicers:
+
+Region
+
+Segment
+
+Order Date
+
+🔍 Key Insights
+Technology category generates the highest total sales compared to other categories.
+
+The West region contributes the highest profit among all regions.
+
+Profit shows a steady increasing trend over time, indicating consistent business growth.
+
+📁 Project Files
+Task7_Dashboard.pbix – Power BI dashboard file
+
+Dashboard.pdf – Exported dashboard
+
+Insights.txt – Key insights from analysis
+
+README.md – Project documentation
+
+✅ Outcome
+This project demonstrates the ability to:
+
+Build interactive dashboards
+
+Create DAX measures
+
+Analyze business data
+
+Present insights visually using Power BI
 ## Author
 Name: Jenifer Shalika S
 Role: Data Analyst Intern (Trainee)
